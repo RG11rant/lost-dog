@@ -3,32 +3,32 @@
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 2.0
-margin_top = 524.0
+offset_left = 2.0
+offset_top = 524.0
 
 [node name="bark" type="Button" parent="."]
-margin_top = 5.0
-margin_right = 150.0
-margin_bottom = 70.0
+offset_top = 5.0
+offset_right = 150.0
+offset_bottom = 70.0
 text = "Bark"
 
 [node name="mark" type="Button" parent="."]
-margin_left = 155.0
-margin_top = 5.0
-margin_right = 305.0
-margin_bottom = 70.0
+offset_left = 155.0
+offset_top = 5.0
+offset_right = 305.0
+offset_bottom = 70.0
 text = "Mark"
 
 [node name="Sniff" type="Button" parent="."]
-margin_left = 464.0
-margin_top = 5.0
-margin_right = 614.0
-margin_bottom = 70.0
+offset_left = 464.0
+offset_top = 5.0
+offset_right = 614.0
+offset_bottom = 70.0
 text = "Sniff"
 
 [node name="Listen" type="Button" parent="."]
-margin_left = 309.0
-margin_top = 5.0
-margin_right = 459.0
-margin_bottom = 70.0
+offset_left = 309.0
+offset_top = 5.0
+offset_right = 459.0
+offset_bottom = 70.0
 text = "Listen"

@@ -1,0 +1,9 @@
+res://default_env.tres
+res://sceens/main.tscn
+res://sceens/robs.tres
+res://scripts/maze.gd
+res://sceens/score.gd
+res://scripts/dog.gd
+res://sceens/Control.gd
+res://scripts/floatingText.gd
+res://sceens/bones.gd

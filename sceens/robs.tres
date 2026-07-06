@@ -1,22 +1,35 @@
-[gd_resource type="Theme" load_steps=6 format=2]
+[gd_resource type="Theme" format=3 uid="uid://dioryhmr8ts4f"]
 
-[ext_resource path="res://font/AtomicAge-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource type="FontFile" uid="uid://dcpw5pcrywdi7" path="res://font/AtomicAge-Regular.ttf" id="1"]
 
-[sub_resource type="DynamicFont" id=6]
-size = 25
-font_data = ExtResource( 1 )
+[sub_resource type="FontFile" id="6"]
+fallbacks = Array[Font]([ExtResource("1")])
+cache/0/variation_coordinates = {}
+cache/0/face_index = 0
+cache/0/embolden = 0.0
+cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
+cache/0/spacing_top = 0
+cache/0/spacing_bottom = 0
+cache/0/spacing_space = 0
+cache/0/spacing_glyph = 0
+cache/0/baseline_offset = 0.0
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
 
-[sub_resource type="StyleBoxFlat" id=7]
-bg_color = Color( 0.0117647, 0.380392, 0.407843, 1 )
+[sub_resource type="StyleBoxFlat" id="7"]
+bg_color = Color(0.0117647, 0.380392, 0.407843, 1)
 
-[sub_resource type="StyleBoxFlat" id=8]
-bg_color = Color( 0, 0.0352941, 0.333333, 1 )
+[sub_resource type="StyleBoxFlat" id="8"]
+bg_color = Color(0, 0.0352941, 0.333333, 1)
 
-[sub_resource type="StyleBoxFlat" id=9]
-bg_color = Color( 0, 0.819608, 0.901961, 1 )
+[sub_resource type="StyleBoxFlat" id="9"]
+bg_color = Color(0, 0.819608, 0.901961, 1)
 
 [resource]
-Button/fonts/font = SubResource( 6 )
-Button/styles/normal = SubResource( 7 )
-ProgressBar/styles/bg = SubResource( 8 )
-ProgressBar/styles/fg = SubResource( 9 )
+Button/fonts/font = SubResource("6")
+Button/styles/normal = SubResource("7")
+ProgressBar/styles/bg = SubResource("8")
+ProgressBar/styles/fg = SubResource("9")

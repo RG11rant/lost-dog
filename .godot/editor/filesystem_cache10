@@ -1,0 +1,77 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1783290836
+default_env.tres::Environment::1571798303164086238::1783290318::0::1::::<><><>0<>0<><>::
+export_presets.cfg::TextFile::-1::1760210751::0::1::::<><><>0<>0<><>::
+icon.png::CompressedTexture2D::9096120198979185379::1656953436::1783290104::1::::<><><>0<>0<>621f0619629bde9eec41d9fa6170c7b3<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
+::res://addons/::1783289929
+::res://addons/godot-git-plugin/::1783289929
+plugin.cfg::TextFile::-1::1643773438::0::1::::<><><>0<>0<><>::
+THIRDPARTY.md::TextFile::-1::1643773438::0::1::::<><><>0<>0<><>::
+::res://addons/godot-git-plugin/osx/::1783289929
+::res://addons/godot-git-plugin/osx/release/::1783289929
+::res://addons/godot-git-plugin/win64/::1783289929
+::res://addons/godot-git-plugin/win64/release/::1783289929
+::res://addons/godot-git-plugin/x11/::1783289929
+::res://addons/godot-git-plugin/x11/release/::1783289929
+::res://apk output/::1783289928
+::res://apk output/html5/::1783290104
+Lost Dog.apple-touch-icon.png::CompressedTexture2D::4287957312270812918::1657812096::1783290104::1::::<><><>0<>0<>a3d7445e4fe09d03076c89967591aa4d<>res://.godot/imported/Lost Dog.apple-touch-icon.png-5d00b66d7566ee1484099ca62aeeb955.ctex::
+Lost Dog.icon.png::CompressedTexture2D::9076581482676333665::1657812096::1783290104::1::::<><><>0<>0<>57d74deb982164aef70cc672ab4f9849<>res://.godot/imported/Lost Dog.icon.png-32da9095a4b99253a30739217b1a783e.ctex::
+Lost Dog.png::CompressedTexture2D::3158209106766759833::1657812096::1783290104::1::::<><><>0<>0<>b866df4fe2d953e1bfb62b2a1e686c6d<>res://.godot/imported/Lost Dog.png-2db3d6604395bfe76c5cd312932e76ba.ctex::
+::res://font/::1783290104
+AtomicAge-Regular.ttf::FontFile::7331995544069477388::1431883088::1783290104::1::::<><><>0<>0<>4c6769d801d26953cd95cb425efc33ea<>res://.godot/imported/AtomicAge-Regular.ttf-d2badac7846b65a77210b735dc98af15.fontdata::
+SpacePatrol.ttf::FontFile::4883066225740660752::1364955784::1783290104::1::::<><><>0<>0<>624327f7adbda8bc5ac93cffd07aec6a<>res://.godot/imported/SpacePatrol.ttf-99d0adb7345be11f41667e4fabed244d.fontdata::
+::res://sceens/::1783290552
+bones.gd::GDScript::9194139254219640765::1783290572::0::1::::<>Node2D<><>0<>0<><>::
+bones.tscn::PackedScene::-1::1783289934::0::1::::<><><>0<>0<><>::res://Sprites/bone.png<>res://sceens/bones.gd
+Control.gd::GDScript::3271606830073196082::1783290598::0::1::::<>Control<><>0<>0<><>::
+Control.tscn::PackedScene::-1::1783289934::0::1::::<><><>0<>0<><>::
+dog.tscn::PackedScene::-1::1783289934::0::1::::<><><>0<>0<><>::res://Sprites/dogSheet1.png<>res://scripts/dog.gd
+floatingText.tscn::PackedScene::-1::1783290532::0::1::::<><><>0<>0<><>::res://font/AtomicAge-Regular.ttf<>res://scripts/floatingText.gd
+house.gd::GDScript::2003384394488226557::1783290582::0::1::::<>Node2D<><>0<>0<><>::
+house.tscn::PackedScene::-1::1783289934::0::1::::<><><>0<>0<><>::res://Sprites/house2.png<>res://sceens/house.gd
+main.tscn::PackedScene::5567965813933274671::1783290318::0::1::::<><><>0<>0<><>::res://sceens/dog.tscn<>uid://js4g323bpfmd::::res://Sprites/bgGrass1.png<>uid://bv8bxxg5oiw2c::::res://scripts/maze.gd<>uid://dcpw5pcrywdi7::::res://font/AtomicAge-Regular.ttf<>uid://dioryhmr8ts4f::::res://sceens/robs.tres<>uid://bmu15e2evnana::::res://sceens/Control.gd<>uid://c1uedjsibysjs::::res://sceens/score.gd
+pee.tscn::PackedScene::-1::1783289934::0::1::::<><><>0<>0<><>::res://Sprites/peee.png
+robs.tres::Theme::7750749523689520367::1783290216::0::1::::<><><>0<>0<><>::uid://dcpw5pcrywdi7::::res://font/AtomicAge-Regular.ttf
+score.gd::GDScript::6639287583291435100::1783289934::0::1::::<>Label<><>0<>0<><>::
+waterBowl.gd::GDScript::7935735766883871070::1783290552::0::1::::<>Node2D<><>0<>0<><>::
+waterBowl.tscn::PackedScene::-1::1783290549::0::1::::<><><>0<>0<><>::res://Sprites/peee.png<>res://sceens/waterBowl.gd
+::res://scripts/::1783290102
+dog.gd::GDScript::6167043212662821287::1783290579::0::1::::<>CharacterBody2D<><>0<>0<><>::
+floatingText.gd::GDScript::7724097008637090141::1783290528::0::1::::<>Marker2D<><>0<>0<><>::
+globle.gd::GDScript::2936402436847199448::1783289934::0::1::::<>Node<><>0<>0<><>::
+maze.gd::GDScript::3928613874916324816::1783290541::0::1::::<>Node2D<><>0<>0<><>::
+::res://Sprites/::1783290104
+bgGrass1.png::CompressedTexture2D::670631413506671479::1657726871::1783290104::1::::<><><>0<>0<>012151035cb4b12a3282dcb100feb503<>res://.godot/imported/bgGrass1.png-75825e41d10d508670510b3ab737d657.ctex::
+bone.png::CompressedTexture2D::7192414245953730682::1657783429::1783290104::1::::<><><>0<>0<>3324f4cab384b7c15289a35a6b4dcb59<>res://.godot/imported/bone.png-0748b315ef61470f8ad10451b93f8534.ctex::
+dogSheet1.png::CompressedTexture2D::5640572678519533362::1657214666::1783290104::1::::<><><>0<>0<>50844a68ac3804a2dac5b6eff54d43ed<>res://.godot/imported/dogSheet1.png-308d3c1d8f1e0563c9034bca93df59c6.ctex::
+dtop_0000_Layer-1-sheet.png::CompressedTexture2D::1891947747858883541::1656951980::1783290104::1::::<><><>0<>0<>230ed9d8fca9e0a7a0f906015cf61e84<>res://.godot/imported/dtop_0000_Layer-1-sheet.png-46ccf673c968b993062e930b9b40e5f7.ctex::
+dtop_0000_Layer-1.json::JSON::-1::1656951980::0::1::::<><><>0<>0<><>::
+house2.png::CompressedTexture2D::5441156122571096375::1657732594::1783290104::1::::<><><>0<>0<>4fcbf14678a4412cfadb69fc939929ae<>res://.godot/imported/house2.png-03afc417fd692c88a9ad86b45e315706.ctex::
+maze.gd::GDScript::8607049541803959619::1783289934::0::1::::<>Node2D<><>0<>0<><>::
+peee.png::CompressedTexture2D::7585905042265667485::1656982582::1783290104::1::::<><><>0<>0<>6bc5c81fbe131866dbd6e9295bb70c37<>res://.godot/imported/peee.png-2c0c2fe2739f706f0d873cb1a3510a8a.ctex::
+trees.png::CompressedTexture2D::1323602233688732566::1657700298::1783290104::1::::<><><>0<>0<>8d3d627d7309334d485794bf98be9ea4<>res://.godot/imported/trees.png-628aa78224c144453d154e6ac36fdc6f.ctex::
+whiteDogs.png::CompressedTexture2D::4486859630751426203::1656951072::1783290104::1::::<><><>0<>0<>8bb8791ea551ebb1c075785dac84b944<>res://.godot/imported/whiteDogs.png-b66ad1b231c62c5daefd8ff912b31a5f.ctex::
+::res://Sprites/backgouds/::1783290104
+TX Plant.png::CompressedTexture2D::5119845830885834420::1611037134::1783290104::1::::<><><>0<>0<>9e77149d5cf0618e85d87413140c1efe<>res://.godot/imported/TX Plant.png-800f896ac2f9ce99534f10491e0edbf3.ctex::
+TX Player.png::CompressedTexture2D::3183586583915249384::1611145298::1783290104::1::::<><><>0<>0<>e4f8b7ce544bd18a955fe41558f3a386<>res://.godot/imported/TX Player.png-f3e96c68f51b1d78149c01e6616deef5.ctex::
+TX Props.png::CompressedTexture2D::5202188525311711921::1611405728::1783290104::1::::<><><>0<>0<>863a6e6a14444200b4ee0c53d8ec7ea6<>res://.godot/imported/TX Props.png-1e1bfec01eb4b3152b0dffaae05d8e2f.ctex::
+TX Shadow Plant.png::CompressedTexture2D::5885123207383836720::1610157982::1783290104::1::::<><><>0<>0<>8e5274b061284290a048c2c9dc77ac46<>res://.godot/imported/TX Shadow Plant.png-8a5d0dba622a4bf1bfb1c3ec66f3d5fa.ctex::
+TX Shadow.png::CompressedTexture2D::6773532027434575936::1611391754::1783290104::1::::<><><>0<>0<>cdc7976e93e8691f55628cfe6e960925<>res://.godot/imported/TX Shadow.png-2b7165a986ae09133dd61d688431892d.ctex::
+TX Struct.png::CompressedTexture2D::6556922571369174732::1611392450::1783290104::1::::<><><>0<>0<>70d1e5920bedfd5b2b57554d496fa647<>res://.godot/imported/TX Struct.png-a99f0905dbae559e80e38d9c7169c7fc.ctex::
+TX Tileset Grass.png::CompressedTexture2D::5946853133823813236::1608879224::1783290104::1::::<><><>0<>0<>a4aa164edf62f2dd3587efe916356f8e<>res://.godot/imported/TX Tileset Grass.png-5e066ad4695904cdbd1d0d8e77f69e5a.ctex::
+TX Tileset Stone Ground.png::CompressedTexture2D::8030180903549674325::1605362650::1783290104::1::::<><><>0<>0<>ba2b7813d16aadb8a9b6b138c36ed8b5<>res://.godot/imported/TX Tileset Stone Ground.png-3e22a2d3af8dd3b91b7e6c1b48b23ded.ctex::
+TX Tileset Wall.png::CompressedTexture2D::4134681563662186698::1611405180::1783290104::1::::<><><>0<>0<>32d908edfbb0f6ef7147ab31678bc3bd<>res://.godot/imported/TX Tileset Wall.png-ce0d153e0981b08bee1a9cf5335d6fd2.ctex::
+::res://Sprites/dog1/::1783290104
+dogdown1.png::CompressedTexture2D::8722722518129513582::1656953436::1783290104::1::::<><><>0<>0<>983ebcc3fd1bfdbdea488e7f1322a8db<>res://.godot/imported/dogdown1.png-4a10f9f7dad4160228be4fd4d5666bcf.ctex::
+dogdown2.png::CompressedTexture2D::1779484433306826218::1656953436::1783290104::1::::<><><>0<>0<>e1c61b598b9eed562d944adb0863ec49<>res://.godot/imported/dogdown2.png-e684f2fd3c5704be73841118fbac4ff2.ctex::
+dogdown3.png::CompressedTexture2D::5901270831085588927::1656953436::1783290104::1::::<><><>0<>0<>9916146b84f9fc6f098d12eece92dca9<>res://.godot/imported/dogdown3.png-d8444d32334872d85b671f5479affde9.ctex::
+dogtop4.png::CompressedTexture2D::5063667300549973901::1656953436::1783290104::1::::<><><>0<>0<>29a023b83f00381f68e8ef5a4aad0132<>res://.godot/imported/dogtop4.png-1de319fd819f12a7af30407d7f2a338a.ctex::
+dogtop5.png::CompressedTexture2D::8472676117874591447::1656953436::1783290104::1::::<><><>0<>0<>73f19f57513107fd201115d78fa03f9a<>res://.godot/imported/dogtop5.png-07c34b98a704fc7b6e33e0308e364cf6.ctex::
+dogtop6.png::CompressedTexture2D::2167945535913661196::1656953436::1783290104::1::::<><><>0<>0<>f6e59ab04e5a4a7bbb01c573fc7cce7d<>res://.godot/imported/dogtop6.png-3c207cbc55adfaa02eb45ef4fa3e78f7.ctex::
+dogtop7.png::CompressedTexture2D::382778479422734113::1656953436::1783290104::1::::<><><>0<>0<>b540124efbb677bf6dbaf1c05f87b30f<>res://.godot/imported/dogtop7.png-387c016719299db4ad21b4454fb4a71f.ctex::
+dogtop8.png::CompressedTexture2D::416030570414348341::1656953436::1783290104::1::::<><><>0<>0<>791578ec807df69954dc03a7ced183df<>res://.godot/imported/dogtop8.png-c4bcf57b23ef3ea1aa70013f32eb0de9.ctex::
+dogtop9.png::CompressedTexture2D::1341263686100560636::1656953436::1783290104::1::::<><><>0<>0<>b21dc1abfbfc1ed8624f7cbb3b7c702b<>res://.godot/imported/dogtop9.png-42acecd6d3593812b5aa364f5a5570ce.ctex::
+dogtop10.png::CompressedTexture2D::20548786166756004::1656953436::1783290104::1::::<><><>0<>0<>f4be675e60529cf2e0f32d4acaa89369<>res://.godot/imported/dogtop10.png-252e8b9cb7e65f1c042c1897cd3c721f.ctex::
+dogtop11.png::CompressedTexture2D::4171771648368104183::1656953436::1783290104::1::::<><><>0<>0<>bf48e90e618864f17bccbab121a91c7e<>res://.godot/imported/dogtop11.png-d27c4df38dbccc290e9e9ae43c3c2d75.ctex::
+dogtop12.png::CompressedTexture2D::8731788420387673645::1656953436::1783290104::1::::<><><>0<>0<>ef109b32b6014bc78fbbbc1c31f9f648<>res://.godot/imported/dogtop12.png-1c2c347c4c52009bf3dd3fa3ad1a22ad.ctex::
