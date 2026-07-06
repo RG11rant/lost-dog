@@ -53,15 +53,27 @@ func _on_restart_pressed():
 
 func create_game_over_panel():
 	game_over_panel = Panel.new()
-	game_over_panel.anchors_preset = Control.PRESET_FULL_RECT
+	game_over_panel.anchor_right = 1.0
+	game_over_panel.anchor_bottom = 1.0
+	game_over_panel.offset_left = 0
+	game_over_panel.offset_right = 0
+	game_over_panel.offset_top = 0
+	game_over_panel.offset_bottom = 0
 	var style = StyleBoxFlat.new()
 	style.bg_color = Color(0.15, 0.05, 0.05, 0.9)
 	game_over_panel.add_theme_stylebox_override("panel", style)
 	
 	var vbox = VBoxContainer.new()
-	vbox.anchors_preset = Control.PRESET_CENTER
+	vbox.anchor_left = 0.5
+	vbox.anchor_top = 0.5
+	vbox.anchor_right = 0.5
+	vbox.anchor_bottom = 0.5
 	vbox.grow_horizontal = Control.GROW_DIRECTION_BOTH
 	vbox.grow_vertical = Control.GROW_DIRECTION_BOTH
+	vbox.offset_left = 0
+	vbox.offset_right = 0
+	vbox.offset_top = 0
+	vbox.offset_bottom = 0
 	vbox.alignment = BoxContainer.ALIGNMENT_CENTER
 	vbox.add_theme_constant_override("separation", 20)
 	
@@ -91,15 +103,27 @@ func create_game_over_panel():
 
 func create_victory_panel():
 	victory_panel = Panel.new()
-	victory_panel.anchors_preset = Control.PRESET_FULL_RECT
+	victory_panel.anchor_right = 1.0
+	victory_panel.anchor_bottom = 1.0
+	victory_panel.offset_left = 0
+	victory_panel.offset_right = 0
+	victory_panel.offset_top = 0
+	victory_panel.offset_bottom = 0
 	var style = StyleBoxFlat.new()
 	style.bg_color = Color(0.05, 0.15, 0.05, 0.9)
 	victory_panel.add_theme_stylebox_override("panel", style)
 	
 	var vbox = VBoxContainer.new()
-	vbox.anchors_preset = Control.PRESET_CENTER
+	vbox.anchor_left = 0.5
+	vbox.anchor_top = 0.5
+	vbox.anchor_right = 0.5
+	vbox.anchor_bottom = 0.5
 	vbox.grow_horizontal = Control.GROW_DIRECTION_BOTH
 	vbox.grow_vertical = Control.GROW_DIRECTION_BOTH
+	vbox.offset_left = 0
+	vbox.offset_right = 0
+	vbox.offset_top = 0
+	vbox.offset_bottom = 0
 	vbox.alignment = BoxContainer.ALIGNMENT_CENTER
 	vbox.add_theme_constant_override("separation", 20)
 	

@@ -7,3 +7,6 @@ res://scripts/dog.gd
 res://sceens/Control.gd
 res://scripts/floatingText.gd
 res://sceens/bones.gd
+res://sceens/enemy_catcher.gd
+res://sceens/enemy_vacuum.gd
+res://sceens/bones.tscn

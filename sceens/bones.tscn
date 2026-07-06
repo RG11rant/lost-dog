@@ -1,52 +1,60 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene format=3 uid="uid://breo7hki3dy2r"]
 
-[ext_resource path="res://Sprites/bone.png" type="Texture2D" id=1]
-[ext_resource path="res://sceens/bones.gd" type="Script" id=2]
+[ext_resource type="Texture2D" uid="uid://daqcanwa07t6a" path="res://Sprites/bone.png" id="1"]
+[ext_resource type="Script" uid="uid://d38yeos2v6u3n" path="res://sceens/bones.gd" id="2"]
 
-[sub_resource type="CircleShape2D" id=1]
-radius = 16.1294
+[sub_resource type="CircleShape2D" id="1"]
+radius = 22.133825
 
-[sub_resource type="AtlasTexture" id=2]
-flags = 4
-atlas = ExtResource( 1 )
-region = Rect2( 0, 0, 32, 32 )
+[sub_resource type="AtlasTexture" id="2"]
+atlas = ExtResource("1")
+region = Rect2(0, 0, 32, 32)
 
-[sub_resource type="AtlasTexture" id=3]
-flags = 4
-atlas = ExtResource( 1 )
-region = Rect2( 32, 0, 32, 32 )
+[sub_resource type="AtlasTexture" id="3"]
+atlas = ExtResource("1")
+region = Rect2(32, 0, 32, 32)
 
-[sub_resource type="AtlasTexture" id=4]
-flags = 4
-atlas = ExtResource( 1 )
-region = Rect2( 0, 32, 32, 32 )
+[sub_resource type="AtlasTexture" id="4"]
+atlas = ExtResource("1")
+region = Rect2(0, 32, 32, 32)
 
-[sub_resource type="AtlasTexture" id=5]
-flags = 4
-atlas = ExtResource( 1 )
-region = Rect2( 32, 32, 32, 32 )
+[sub_resource type="AtlasTexture" id="5"]
+atlas = ExtResource("1")
+region = Rect2(32, 32, 32, 32)
 
-[sub_resource type="SpriteFrames" id=6]
-animations = [ {
-"frames": [ SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ) ],
-"loop": true,
-"name": "spine",
+[sub_resource type="SpriteFrames" id="6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("2")
+}, {
+"duration": 1.0,
+"texture": SubResource("3")
+}, {
+"duration": 1.0,
+"texture": SubResource("4")
+}, {
+"duration": 1.0,
+"texture": SubResource("5")
+}],
+"loop": 1,
+"name": &"spine",
 "speed": 5.0
-} ]
+}]
 
-[node name="bones" type="Node2D"]
-script = ExtResource( 2 )
+[node name="bones" type="Node2D" unique_id=1151114308]
+script = ExtResource("2")
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="Area2D" type="Area2D" parent="." unique_id=1472231351]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2( -0.125, 0.375 )
-shape = SubResource( 1 )
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1548661289]
+position = Vector2(-0.125, 0.375)
+shape = SubResource("1")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Area2D"]
-frames = SubResource( 6 )
-animation = "spine"
-frame = 1
-playing = true
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Area2D" unique_id=733369746]
+position = Vector2(-3.8146973e-06, -3.8146973e-06)
+scale = Vector2(1.890625, 1.7400444)
+sprite_frames = SubResource("6")
+animation = &"spine"
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]

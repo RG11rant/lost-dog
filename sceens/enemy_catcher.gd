@@ -48,7 +48,7 @@ func _draw():
 	draw_circle(Vector2(0, -18), 12.0, Color(0.9, 0.7, 0.1))
 	draw_line(Vector2(-20, -16), Vector2(20, -16), Color(0.9, 0.7, 0.1), 4.0)
 
-func _process(delta):
+func _process(_delta):
 	queue_redraw()
 
 func _physics_process(delta):

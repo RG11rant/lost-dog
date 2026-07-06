@@ -51,7 +51,7 @@ func _draw():
 	var hose_side = 22.0 if patrol_dir.x >= 0 else -22.0
 	draw_line(Vector2(hose_side, 5), Vector2(hose_side + patrol_dir.x * 12.0, 12), Color(0.2, 0.2, 0.2), 6.0)
 
-func _process(delta):
+func _process(_delta):
 	queue_redraw()
 
 func _physics_process(delta):
